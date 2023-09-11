@@ -1,0 +1,18 @@
+body {
+    background-color: #49495c;
+    color: #dddddd;
+    font-size: 30px;
+}
+
+h1 {color: orange;}
+
+p {color: rgb(255, 211, 129);}
+
+.home-button {
+    border: groove blue 5px;
+    text-align: center;
+    margin-left: 200px;
+    width: 120px;
+    font-size: 20px;
+    background-color: bisque;
+}
