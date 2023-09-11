@@ -1,12 +1,11 @@
 body {
     background-color: #49495c;
-    color: #dddddd;
     font-size: 30px;
+    color: bisque;
 }
 
 h1 {color: orange;}
 
-p {color: rgb(255, 211, 129);}
 
 .home-button {
     border: groove blue 5px;
@@ -15,4 +14,22 @@ p {color: rgb(255, 211, 129);}
     width: 120px;
     font-size: 20px;
     background-color: bisque;
+}
+
+.ingredients {
+    padding-left: 40px;
+    margin-bottom: 30px;
+    border: groove 7px;
+    border-color: green;
+    background-color: beige;
+    color: brown;
+}
+
+
+.instructions {
+    padding-left: 40px;
+    border: groove 7px;
+    border-color: green;
+    background-color: beige;
+    color: brown;
 }
