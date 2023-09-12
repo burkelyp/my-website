@@ -1,5 +1,5 @@
 body {
-    background-color: #90d8a0;
+    background-color: bisque/*#90d8a0*/;
     font-size: 30px;
     color: brown;
     text-align: center;
@@ -10,6 +10,10 @@ h1 {
     background-color: brown;
     color: white;
     margin: 0;
+}
+
+img {
+    margin-top: 40px;
 }
 
 .home-button {
