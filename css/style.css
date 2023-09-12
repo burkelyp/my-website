@@ -1,52 +1,42 @@
 body {
-    background-color: #49495c;
+    background-color: #90d8a0;
     font-size: 30px;
-    color: bisque;
+    color: brown;
+    text-align: center;
 }
 
 h1 {
-    color: orange;
-    text-align: center;
+    padding: 10px;
+    background-color: brown;
+    color: white;
+    margin: 0;
 }
 
-
 .home-button {
-    border: groove blue 5px;
+    border: outset blue 5px;
+    padding: 3px;
     text-align: center;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 25px;
+    margin: 25px auto;
     width: 120px;
     font-size: 20px;
     background-color: bisque;
 }
 
-.ingredients {
-    padding-left: 40px;
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-bottom: 30px;
-    border: groove 7px;
-    border-color: orange;
-    background-color: beige;
-    color: brown;
+.recipe {
+    background-image: url(../img/garlic-onion.jpg);
+    background-attachment: fixed;
 }
-
 
 .instructions {
-    padding-left: 40px;
-    margin-left: 150px;
-    margin-right: 150px;
-    border: groove 7px;
-    border-color: orange;
+    text-align: left;
+    padding: 10px 40px;
+    margin: 30px 100px;
+    border: solid 3px orange;
     background-color: beige;
-    color: brown;
 }
 
-.center {
+.img-center {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px;
+    margin: 40px auto;
 }
